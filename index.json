@@ -1,0 +1,31 @@
+{
+  "eula": "",
+  "vendor": "s0q6a",
+  "license": "",
+  "id": "com.sap.sac.sample.echarts.prepared",
+  "version": "1.0.0",
+  "name": "Two Value Axis",
+  "newInstancePrefix": "TwoValueAxis",
+  "description": "A sample custom widget wrapped EChart Prepared",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-sap-sample-twoaxis-prepared",
+      "url": "/main.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {
+    "width": {
+      "type": "integer",
+      "default": 600
+    },
+    "height": {
+      "type": "integer",
+      "default": 420
+    }
+  },
+  "methods": {},
+  "events": {}
+}
