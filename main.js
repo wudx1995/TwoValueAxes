@@ -31,7 +31,7 @@ var getScriptPromisify = (src) => {
     }
 
     async render () {
-      await getScriptPromisify('https://cdn.bootcdn.net/ajax/libs/echarts/5.0.0/echarts.min.js')
+      await getScriptPromisify('https://wudx1995.github.io/TwoValueAxes/echarts.min.js')
 
       const chart = echarts.init(this._root)
       const data = [];
